@@ -1,4 +1,5 @@
 module.exports = {
   createAction: require("./createAction"),
-  createActionCreator: require("./createActionCreator")
+  createActionCreator: require("./createActionCreator"),
+  createBoundActionCreator: require("./createBoundActionCreator")
 }

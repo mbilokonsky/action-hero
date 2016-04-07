@@ -2,7 +2,7 @@ var expect = require("chai").expect;
 var subject = require("../src/createActionCreator");
 var util = require("util");
 
-describe("The createActionGenerator function", function() {
+describe("The createActionCreator function", function() {
   it("throws an error if called without a type.", function() {
     expect(subject).to.throw("Must specify a type.");
   });
@@ -28,6 +28,4 @@ describe("The createActionGenerator function", function() {
       expect(actionCreator(2, 2).payload).to.equal(4);
     });
   });
-
-
-})
+});
