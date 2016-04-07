@@ -1,6 +1,6 @@
 {
   "name": "action-hero",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A tool for generating action objects.",
   "main": "src/index.js",
   "scripts": {
