@@ -1,0 +1,26 @@
+{
+  "name": "action-hero",
+  "version": "1.0.0",
+  "description": "A tool for generating action objects.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbilokonsky/action-hero.git"
+  },
+  "keywords": [
+    "actions"
+  ],
+  "author": "@mykola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbilokonsky/action-hero/issues"
+  },
+  "homepage": "https://github.com/mbilokonsky/action-hero#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
